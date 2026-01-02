@@ -25,7 +25,7 @@ description: 理解不同活动类型的特点
 - [分享嘉宾](./roles/speaker)
 - [后勤/签到](./roles/logistics)
 - [宣发推送](./roles/pr)
-- [摄影/摄像](./roles/photo)
+- [摄影](./roles/photo)
 
 **可选扩展**
 - [计时/场控](./roles/timekeeper)（流程紧凑时建议）
@@ -40,10 +40,10 @@ description: 理解不同活动类型的特点
 - [主持人](./roles/mc)
 - [计时/场控](./roles/timekeeper)
 - [作品管理员](./roles/submission)
-- [演示官](./roles/demo)
+- [讲师](./roles/demo)
 
 **可选扩展**
-- [摄影/摄像](./roles/photo)
+- [摄影](./roles/photo)
 - [鼓励师/顾问](./roles/advisor)
 - [现场电脑操作员](./roles/operator)（中控/投屏）
 - [物料员](./roles/material)

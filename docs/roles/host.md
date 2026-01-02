@@ -13,7 +13,7 @@ description: 总统筹、决策、志愿者管理
 *   **决策 (Decide)**：处理突发状况，做最终决策人。
 *   **连接 (Connect)**：连接社区资源、讲师嘉宾与参与者。
 *   **建群 (Community)**：**建立两个群** —— 志愿者筹备群 & 活动现场群。
-*   **文档 (Documentation)**：**指定专人**（通常是演示官或你自己）准备现场共学文档和 PPT。
+*   **文档 (Documentation)**：**指定专人**（通常是讲师或你自己）准备现场共学文档和 PPT。
 
 
 
@@ -26,7 +26,7 @@ description: 总统筹、决策、志愿者管理
     - **活动现场群**: 提前建好，生成二维码放进 PPT 和签到台。
 - [ ] **内容把控**:
     - **优先使用飞书文档/在线文档替代 PPT**: 可直接转换成活动推送和现场资料，支持多人在线编辑，避免手动制作 PPT 的时间成本。
-    - 确认 **分享嘉宾/演示官** 的 PPT 和 共学文档 已准备好。
+    - 确认 **分享嘉宾/讲师** 的 PPT 和 共学文档 已准备好。
     - *PPT 模板*: [点击获取](https://hackathonweekly.feishu.cn/wiki/M5B4w2j8iiKJzbksKX6chZBlnEd) (仅用于大型黑客松或必须时)
     - *共学文档模板*: [点击获取](https://hackathonweekly.feishu.cn/wiki/MUTFwqPGbiI0aGkYB7ncjBSsnog)
 - [ ] **招募与社区转化**:
