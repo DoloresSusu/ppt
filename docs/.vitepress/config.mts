@@ -6,6 +6,7 @@ export default defineConfig({
   title: "SOP",
   description: "SOP for hackathonweekly",
   lastUpdated: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
@@ -21,34 +22,44 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'SOP指南',
+        text: '🙌 志愿者指南',
         items: [
-          { text: 'AI 智能创建指南', link: '/00-ai-guide' },
-          { text: '本次活动信息', link: '/01-template' },
-          { text: '快速导航', link: '/02-navigation' },
-          { text: '活动类型与核心流程', link: '/03-activity-types' },
-          { text: '社区工具箱与资源', link: '/04-resources' }
+          { text: '岗位快速导航', link: '/#navigation' },
+          { text: '志愿者须知', link: '/#volunteer-notices' },
+          { text: '应急手册', link: '/#emergency' },
+          {
+            text: '岗位角色 SOP',
+            collapsed: false,
+            items: [
+              { text: '主持人', link: '/roles/mc' },
+              { text: '后勤/签到', link: '/roles/logistics' },
+              { text: '宣发推送', link: '/roles/pr' },
+              { text: '计时/场控', link: '/roles/timekeeper' },
+              { text: '摄影', link: '/roles/photo' },
+              { text: '技术支持', link: '/roles/tech-support' },
+              { text: '作品管理员', link: '/roles/submission' },
+              { text: '现场电脑操作员', link: '/roles/operator' },
+              { text: '鼓励师/顾问', link: '/roles/advisor' },
+              { text: '物料员', link: '/roles/material' },
+              { text: '餐饮与后勤', link: '/roles/catering' },
+            ]
+          }
         ]
       },
       {
-        text: '岗位角色',
+        text: '🏗️ 组织者手册',
         items: [
-          { text: '活动主理人', link: '/roles/host' },
-          { text: '志愿者统筹', link: '/roles/volunteer-lead' },
-          { text: '主持人', link: '/roles/mc' },
-          { text: '鼓励师/顾问', link: '/roles/advisor' },
-          { text: '餐饮与后勤', link: '/roles/catering' },
-          { text: '讲师', link: '/roles/demo' },
-          { text: '后勤/签到', link: '/roles/logistics' },
-          { text: '物料员', link: '/roles/material' },
-          { text: '现场电脑操作员', link: '/roles/operator' },
-          { text: '摄影', link: '/roles/photo' },
-          { text: '宣发推送', link: '/roles/pr' },
-          { text: '分享嘉宾', link: '/roles/speaker' },
-          { text: '赞助商对接', link: '/roles/sponsor' },
-          { text: '作品管理员', link: '/roles/submission' },
-          { text: '技术支持', link: '/roles/tech-support' },
-          { text: '计时/场控', link: '/roles/timekeeper' }
+          { text: '活动主理人 SOP', link: '/roles/host' },
+          { text: '志愿者统筹 SOP', link: '/roles/volunteer-lead' },
+          { text: 'AI 智能创建指南', link: '/00-ai-guide' },
+          { text: '本次活动信息模板', link: '/01-template' },
+          { text: '活动类型与核心流程', link: '/03-activity-types' },
+          { text: '讲师/嘉宾对接', items: [
+            { text: '讲师 SOP', link: '/roles/demo' },
+            { text: '分享嘉宾 SOP', link: '/roles/speaker' },
+            { text: '赞助商对接 SOP', link: '/roles/sponsor' },
+          ]},
+          { text: '社区工具箱与资源', link: '/04-resources' }
         ]
       }
     ],
