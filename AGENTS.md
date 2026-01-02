@@ -2,9 +2,9 @@
 
 ## Project Structure & Module Organization
 - `docs/` contains all VitePress content pages (Markdown).
+- `docs/organizer/` stores organizer-related guide and tools.
 - `docs/roles/` stores role-specific SOP pages (e.g., `docs/roles/tech-support.md`).
 - `docs/.vitepress/config.mts` defines site config, navigation, sidebar, and theme settings.
-- Top-level docs use numeric prefixes for ordering (e.g., `00-ai-guide.md`, `01-template.md`).
 
 ## Build, Test, and Development Commands
 - `bun install` installs dependencies (lockfile: `bun.lockb`).
@@ -14,8 +14,8 @@
 
 ## Coding Style & Naming Conventions
 - Markdown: keep files focused on a single topic, use clear `#`/`##` headings, and keep lists tidy.
-- Filenames: use numeric prefixes for top-level docs and kebab-case for role pages.
-- Links: prefer VitePress root-relative links like `/roles/host`.
+- Filenames: use descriptive names and kebab-case for role and guide pages.
+- Links: prefer VitePress root-relative links like `/organizer/host-sop`.
 - Config: keep `docs/.vitepress/config.mts` formatting consistent (2-space indent, single quotes).
 
 ## Testing Guidelines

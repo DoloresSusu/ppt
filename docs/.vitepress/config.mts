@@ -10,12 +10,12 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
-      pattern: 'https://github.com/01mvp/sop-vitepress/edit/main/docs/:path'
+      pattern: 'https://github.com/01mvp/sop/edit/main/docs/:path'
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'SOP指南', link: '/00-ai-guide' },
-      { text: '岗位角色', link: '/roles/host' }
+      { text: '组织者手册', link: '/organizer/' },
+      { text: '角色列表', link: '/roles/' }
     ],
     search : {
       provider: 'local'
@@ -49,23 +49,23 @@ export default defineConfig({
       {
         text: '🏗️ 组织者手册',
         items: [
-          { text: '活动主理人 SOP', link: '/roles/host' },
-          { text: '志愿者统筹 SOP', link: '/roles/volunteer-lead' },
-          { text: 'AI 智能创建指南', link: '/00-ai-guide' },
-          { text: '本次活动信息模板', link: '/01-template' },
-          { text: '活动类型与核心流程', link: '/03-activity-types' },
+          { text: '组织者首页', link: '/organizer/' },
+          { text: '活动主理人 SOP', link: '/organizer/host-sop' },
+          { text: '志愿者统筹 SOP', link: '/organizer/volunteer-lead-sop' },
+          { text: '策划指南与模板', link: '/organizer/planning' },
+          { text: '活动类型与核心流程', link: '/organizer/activity-types' },
           { text: '讲师/嘉宾对接', items: [
             { text: '讲师 SOP', link: '/roles/demo' },
             { text: '分享嘉宾 SOP', link: '/roles/speaker' },
             { text: '赞助商对接 SOP', link: '/roles/sponsor' },
           ]},
-          { text: '社区工具箱与资源', link: '/04-resources' }
+          { text: '社区工具箱与资源', link: '/organizer/resources' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/01mvp/sop' }
     ]
   },
   markdown: {

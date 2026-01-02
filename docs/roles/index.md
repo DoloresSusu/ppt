@@ -8,8 +8,8 @@ description: 各岗位详细执行指南
 这里包含了周周黑客松活动中各个岗位的详细执行标准作业程序（SOP）。
 
 ## 统筹与管理
-- [活动主理人 (Host)](./host) - 总统筹、决策、志愿者管理
-- [志愿者统筹 (Volunteer Lead)](./volunteer-lead) - 招募、排班、后勤保障
+- [活动主理人 (Host)](../organizer/host-sop) - 总统筹、决策、志愿者管理
+- [志愿者统筹 (Volunteer Lead)](../organizer/volunteer-lead-sop) - 招募、排班、后勤保障
 - [鼓励师/顾问 (Advisor)](./advisor) - 关怀志愿者、提供建议
 
 ## 内容与流程
