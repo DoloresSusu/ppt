@@ -6,10 +6,6 @@ description: 海报、推文、现场直播
 
 # 📢 宣发推送工作 SOP
 
-> **核心定位**: 社区的"嘴替"，活动的"记录者"。
-> **📝 使用提示**: 请将下方清单视为 Checklist，完成一项勾选一项。
-
-
 
 ## 一、常用模板与规范 (建议收藏)
 *   **公众号发布规范**: [点击查看](https://hackathonweekly.feishu.cn/wiki/A1lawCvxVipWBtkgbqXcqh2Ynxh)
