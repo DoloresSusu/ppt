@@ -1,6 +1,6 @@
-# SOP 文档站点（VitePress）
+# 周周黑客松 SOP 文档站点
 
-这是 SOP 文档站点的源码仓库，线上地址：
+这是 **周周黑客松** SOP 文档站点的源码仓库，线上地址：
 - https://sop.01mvp.cn
 - 或者： https://sop-lemon.vercel.app
 

@@ -4,7 +4,7 @@ import taskLists from 'markdown-it-task-lists'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "SOP",
-  description: "SOP for hackathonweekly",
+  description: "周周黑客松活动执行 SOP",
   lastUpdated: true,
   ignoreDeadLinks: true,
   themeConfig: {
@@ -13,7 +13,7 @@ export default defineConfig({
       pattern: 'https://github.com/01mvp/sop/edit/main/docs/:path'
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       { text: '组织者手册', link: '/organizer/' },
       { text: '角色列表', link: '/roles/' }
     ],
@@ -26,7 +26,6 @@ export default defineConfig({
         items: [
           { text: '岗位快速导航', link: '/#navigation' },
           { text: '志愿者须知', link: '/#volunteer-notices' },
-          { text: '应急手册', link: '/#emergency' },
           {
             text: '岗位角色 SOP',
             collapsed: false,
@@ -51,7 +50,6 @@ export default defineConfig({
         items: [
           { text: '组织者首页', link: '/organizer/' },
           { text: '活动主理人 SOP', link: '/organizer/host-sop' },
-          { text: '志愿者统筹 SOP', link: '/organizer/volunteer-lead-sop' },
           { text: '策划指南与模板', link: '/organizer/planning' },
           { text: '活动类型与核心流程', link: '/organizer/activity-types' },
           { text: '讲师/嘉宾对接', items: [

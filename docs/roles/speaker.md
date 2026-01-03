@@ -4,13 +4,13 @@ description: 内容输出、预演、控时
 --- 
 
 
-# 🎤 分享嘉宾/活动介绍官 SOP (Speaker)
+# 🎤 分享嘉宾/活动介绍官 SOP
 
 
 ## 一、角色关键职责
-*   **内容输出 (Content)**：准备高质量的 PPT，分享社区介绍或特定技术/行业主题。
-*   **预演 (Rehearsal)**：提前与**活动主理人**对接 PPT 内容，接受反馈并修改。
-*   **控时 (Timeboxing)**：严格遵守时间限制（通常 10-15 分钟），绝不拖堂。
+*   **内容输出**：准备高质量的 PPT，分享社区介绍或特定技术/行业主题。
+*   **预演**：提前与**活动主理人**对接 PPT 内容，接受反馈并修改。
+*   **控时**：严格遵守时间限制（通常 10-15 分钟），绝不拖堂。
 
 
 
@@ -20,7 +20,7 @@ description: 内容输出、预演、控时
 - [ ] **对接 PPT**:
     - 提前 3 天将 PPT 初稿发给**活动主理人**审核。
     - **重点检查**: 是否包含广告过度植入？内容是否过于深奥（小白听不懂）？是否超时？
-    - *社区通用 PPT 模板*: [点击获取](https://hackathonweekly.feishu.cn/wiki/M5B4w2j8iiKJzbksKX6chZBlnEd)
+    - *社区通用 PPT 模板*: [通用 PPT 模板](https://hackathonweekly.feishu.cn/wiki/M5B4w2j8iiKJzbksKX6chZBlnEd)
 - [ ] **修改优化**: 根据反馈调整内容，确保每一页 PPT 都有价值，删除废话。
 - [ ] **设备确认**: 确认自己的电脑接口（HDMI/Type-C），或提前将文件发给**现场电脑操作员**。
 
@@ -46,8 +46,8 @@ description: 内容输出、预演、控时
 
 
 ## 四、分享锦囊
-1.  **用户视角**: 听众想听什么？不是你想讲什么。多讲"怎么做 (How)"，少讲"概念 (Concept)"。
-2.  **Less is More**: 15 分钟的分享，不要超过 15 页 PPT。
+1.  **用户视角**: 听众想听什么？不是你想讲什么。多讲"怎么做"，少讲"概念"。
+2.  **少即是多**: 15 分钟的分享，不要超过 15 页 PPT。
 3.  **赞助商注意**: 如果你是代表赞助方，请把广告融入案例中，硬广会让大家玩手机。
 
 
@@ -55,5 +55,4 @@ description: 内容输出、预演、控时
 ## 🔗 常用资源
 *   **社区 Logo 下载**: [logo.hackathonweely.com](http://logo.hackathonweely.com)
 *   **设计物料**: [相关材料在这里](https://hackathonweekly.feishu.cn/wiki/Gv66w0acCi4wFMkTwNoctNKPnAo?from=from_parent_docx)
-
 
