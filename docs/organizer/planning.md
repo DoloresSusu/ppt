@@ -104,4 +104,4 @@ description: 使用 AI 助手快速生成活动策划案并使用模板进行完
 ```
 
 
-[⬅️ 返回活动主理人 SOP](./host-sop)
+[⬅️ 返回活动主理人 SOP](/organizer/)
