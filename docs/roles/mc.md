@@ -135,7 +135,6 @@ description: 控场、氛围、连接参与者
 2.  **补位**: 当台上尴尬时，你要迅速接话；当台下冷场时，你要带头鼓掌。
 3.  **克制**: 主持人不是主角，尽量把舞台留给参与者。
 
----
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="./logistics">⬅️ 上一岗位：后勤/签到</a>

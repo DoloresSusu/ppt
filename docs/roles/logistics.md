@@ -76,7 +76,6 @@ description: 签到核销、场地布置、清场
 2.  **姓名贴**: 提醒大家把名字写大一点，方便社交。
 3.  **指引**: 哪怕有图，很多人还是会迷路。如果可以，安排一位"人肉指引"在楼下接人是体验最好的。
 
----
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="./index">⬅️ 返回岗位列表</a>

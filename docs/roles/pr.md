@@ -93,7 +93,6 @@ description: 海报、推文、现场直播
 3.  **素材前置**: 不要等活动结束才想起来要照片，活动开始前就告诉摄影师："我要一张全景、一张特写、一张合影"。
 4.  **数据说话**: "大家玩得很开心"不如"4小时产出了 12 个作品"有说服力。
 
----
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="./mc">⬅️ 上一岗位：主持人</a>
