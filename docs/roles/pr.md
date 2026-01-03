@@ -96,7 +96,7 @@ description: 海报、推文、现场直播
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="./mc">⬅️ 上一岗位：主持人</a>
-  <a href="./timekeeper">下一岗位：计时/场控 ➡️</a>
+  <a href="./operator">下一岗位：现场电脑操作员 ➡️</a>
 </div>
 
 
