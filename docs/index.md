@@ -79,3 +79,6 @@ features:
 - 重新设计首页结构，强化志愿者导航功能
 - 增加社区介绍与志愿者须知
 - 区分组织者与志愿者入口
+
+
+本文档网站基于 https://github.com/01MVP/01mvp-docs-starter 模板构建！
