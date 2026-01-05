@@ -7,8 +7,8 @@ import { withSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig = {
-  title: '01MVP VitePress Template',
-  description: '快速、简单、开箱即用的 VitePress 文档模板',
+  title: '周周黑客松 SOP',
+  description: '用 AI 快速简单地举办一场活动',
   lastUpdated: true,
   ignoreDeadLinks: true,
   head: [
@@ -23,9 +23,9 @@ const vitePressConfig = {
         registerType: 'autoUpdate',
         includeAssets: ['pwa-192x192.png', 'pwa-512x512.png'],
         manifest: {
-          name: '01MVP VitePress Template',
-          short_name: '01MVP Docs',
-          description: '快速、简单、开箱即用的 VitePress 文档模板',
+          name: '周周黑客松 SOP',
+          short_name: '周周黑客松 SOP',
+          description: '用 AI 快速简单地举办一场活动',
           theme_color: '#111827',
           background_color: '#111827',
           display: 'standalone',
@@ -55,7 +55,7 @@ const vitePressConfig = {
     // https://vitepress.dev/reference/default-theme-config
     editLink: {
       pattern:
-        'https://github.com/01mvp/vitepress-template/edit/main/docs/:path',
+        'https://github.com/01mvp/sop/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 
@@ -69,8 +69,8 @@ const vitePressConfig = {
 
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/01mvp/vitepress-template' },
-      { icon: 'x', link: 'https://twitter.com/01mvp' },
+      { icon: 'github', link: 'https://github.com/01mvp/sop' },
+      { icon: 'x', link: 'https://twitter.com/hack_weekly' },
     ],
 
     // 本地化配置
