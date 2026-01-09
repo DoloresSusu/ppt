@@ -83,7 +83,8 @@ description: 活动主理人必读的百科全书
 *   **公众号规范**: [微信公众号发布规范与说明](https://hackathonweekly.feishu.cn/wiki/A1lawCvxVipWBtkgbqXcqh2Ynxh)
 
 ### 🛠️ 活动物料
-*   **PPT 模板**: [通用 PPT 模板](https://hackathonweekly.feishu.cn/wiki/M5B4w2j8iiKJzbksKX6chZBlnEd)
+*   **PPT 模板（飞书 PPT 版本）**: [通用 PPT 模板](https://hackathonweekly.feishu.cn/wiki/M5B4w2j8iiKJzbksKX6chZBlnEd)
+*   **PPT 模板（ AI + Html 版本-更推荐）**: https://hackppt.01mvp.com ，源码见  https://github.com/01MVP/sop 的 ai-ppt/index.html
 *   **共学文档**: [共学文档模板](https://hackathonweekly.feishu.cn/wiki/MUTFwqPGbiI0aGkYB7ncjBSsnog)
 *   **设计素材**: [素材库](https://hackathonweekly.feishu.cn/wiki/Gv66w0acCi4wFMkTwNoctNKPnAo?from=from_parent_docx)
 

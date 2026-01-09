@@ -1,8 +1,13 @@
 # 周周黑客松 SOP 文档站点
 
 这是 **周周黑客松** SOP 文档站点的源码仓库，线上地址：
-- https://sop.01mvp.cn
-- 或者： https://sop-lemon.vercel.app
+- https://sop.01mvp.com
+
+AI PPT 的地址在
+- https://hackppt.01mvp.com
+
+可以让 AI 模型基于本仓库的 ai-ppt/index.html 快速修改得到活动的 PPT
+
 
 ## 快速开始
 - 安装依赖：`bun install`
