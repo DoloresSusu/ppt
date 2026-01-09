@@ -71,6 +71,13 @@ description: 活动主理人必读的百科全书
 
 ## 第三部分：资源工具箱
 
+### 必备资料
+* **社区介绍PPT**： https://ppt.hackathonweekly.com
+* **报销申请表**： https://baoxiao.hackathonweekly.com
+* **社区可用场地**： https://space.hackathonweekly.com
+* **社区 SOP**： https://sop.01mvp.cn
+* **社区 Logo**： https://logo.hackathonweekly.com
+
 ### 📺 直播与宣发
 *   **直播指南**: [社区视频号 & 小红书直播指南](https://hackathonweekly.feishu.cn/wiki/FFmiwixIAidyL4ksimicc4NVnld)
 *   **公众号规范**: [微信公众号发布规范与说明](https://hackathonweekly.feishu.cn/wiki/A1lawCvxVipWBtkgbqXcqh2Ynxh)
