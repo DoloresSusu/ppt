@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>社区介绍</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles-brutalist.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'neo-bg': '#E0E7FF', 
+            'neo-yellow': '#FFDE59',
+            'neo-blue': '#5CE1E6',
+            'neo-red': '#FF5757',
+            'neo-green': '#7ED957',
+            'neo-purple': '#CB6CE6',
+            'neo-black': '#000000',
+            'neo-white': '#FFFFFF',
+          },
+          boxShadow: {
+            'neo': '6px 6px 0px 0px rgba(0,0,0,1)',
+            'neo-sm': '4px 4px 0px 0px rgba(0,0,0,1)',
+            'neo-lg': '10px 10px 0px 0px rgba(0,0,0,1)',
+          },
+          borderWidth: {
+            '3': '3px',
+          },
+          fontFamily: {
+            'mono': ['"Courier Prime"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer components {
+      .neo-box {
+        @apply border-4 border-black shadow-neo;
+      }
+      .neo-box-lg {
+        @apply border-4 border-black shadow-neo-lg;
+      }
+      .neo-card {
+        @apply neo-box p-6;
+      }
+      .neo-card-lg {
+        @apply neo-box-lg p-8;
+      }
+      .neo-badge {
+        @apply border-2 border-black px-2 py-1 font-bold inline-block;
+      }
+      .neo-title-tag {
+        @apply text-4xl font-bold mb-8 inline-block border-2 border-black px-4 py-2;
+      }
+      .neo-btn {
+        @apply border-2 border-black px-4 py-2 font-bold shadow-neo hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-pointer;
+      }
+      .neo-icon-box {
+        @apply w-24 h-24 flex items-center justify-center border-2 border-black p-2 text-6xl;
+      }
+      .neo-list-item {
+        @apply flex items-center gap-4;
+      }
+      .neo-checkbox {
+        @apply w-6 h-6 border-2 border-black accent-neo-blue;
+      }
+    }
+  </style>
+</head>
+<body class="bg-neo-bg text-neo-black font-mono">
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1: Community Cover -->
+      <section>
+        <div class="flex flex-col h-full justify-center items-center gap-8">
+          <img src="assets/logo.png" class="h-24 w-auto mb-4" alt="Community Logo">
+          <div class="neo-card-lg bg-neo-blue transform -rotate-2">
+            <h2 class="text-6xl font-bold uppercase m-0">👥 AI 创造者社区</h2>
+            <p class="text-xl mt-4 font-bold text-center">每周末，一起创造有意思的 AI 作品</p>
+          </div>
+          <div class="grid grid-cols-3 gap-6 w-full max-w-4xl mt-8">
+            <div class="neo-card bg-neo-white">
+              <div class="text-2xl font-bold mb-2">定位</div>
+              <div class="text-lg">周周黑客松｜AI 创造者社区</div>
+            </div>
+            <div class="neo-card bg-neo-yellow">
+              <div class="text-2xl font-bold mb-2">节奏</div>
+              <div class="text-lg">每周末一起创造</div>
+            </div>
+            <div class="neo-card bg-neo-green">
+              <div class="text-2xl font-bold mb-2">目标</div>
+              <div class="text-lg">从想法到落地</div>
+            </div>
+          </div>
+          <div class="mt-8 text-sm font-bold bg-white border-2 border-black p-2 shadow-neo-sm">
+            Wild / Neo-Brutalism
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 2: Community Intro -->
+      <section>
+        <div class="flex flex-row gap-12 items-center h-full">
+          <div class="flex-1 text-left">
+            <h2 class="text-5xl font-bold mb-4 leading-none">我们是谁</h2>
+            <p class="text-2xl mb-4 font-bold bg-neo-yellow inline-block border-2 border-black px-2">周周黑客松｜AI 创造者社区</p>
+            <ul class="text-xl font-bold space-y-2">
+              <li>AI 创造者社区，每周末一起创造有意思的 AI 作品</li>
+              <li>开发者 · 产品经理 · 创业者 · 跨界 AI 爱好者</li>
+              <li>普通人也能做出第一个 AI 作品</li>
+              <li>创造者随时可以回来的家</li>
+            </ul>
+            <div class="mt-4 flex flex-wrap gap-3">
+              <span class="bg-neo-red text-white border-2 border-black px-3 py-1 font-bold">爱</span>
+              <span class="bg-neo-blue text-black border-2 border-black px-3 py-1 font-bold">自由</span>
+              <span class="bg-neo-green text-black border-2 border-black px-3 py-1 font-bold">创造</span>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="flex flex-col items-center bg-white border-4 border-black p-4 shadow-neo hover:rotate-2 transition-transform">
+              <img class="w-48 h-48 border-2 border-black mb-2" src="assets/media/image5.jpeg" alt="公众号" />
+              <div class="font-bold bg-black text-white px-3 py-1 w-full text-center">微信公众号</div>
+            </div>
+            <div class="flex flex-col items-center bg-white border-4 border-black p-4 shadow-neo hover:-rotate-2 transition-transform">
+              <img class="w-48 h-48 border-2 border-black mb-2" src="assets/media/image6.jpeg" alt="小程序" />
+              <div class="font-bold bg-black text-white px-3 py-1 w-full text-center">微信小程序</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 3: Pain Points -->
+      <section>
+        <div class="grid grid-cols-2 gap-8 h-full items-center">
+          <div class="neo-card-lg bg-neo-white">
+            <h2 class="text-4xl font-bold mb-6">我们解决什么问题</h2>
+            <ul class="text-lg font-bold space-y-2">
+              <li>大家都会用 AI（ChatGPT / 豆包）</li>
+              <li>但用 AI 解决复杂问题总会遇到麻烦</li>
+              <li>如何创造自己的产品？</li>
+              <li>如何找到用户场景？</li>
+              <li>如何找到一起干的伙伴？</li>
+              <li>怎么用 AI 提效？</li>
+            </ul>
+          </div>
+          <div class="neo-card-lg bg-neo-yellow">
+            <div class="text-3xl font-black mb-6">真正缺的不是教程，不是想法，而是...</div>
+            <div class="grid gap-4">
+              <div class="neo-card bg-neo-white">
+                <div class="text-xl font-bold">亲自动手实践的场景</div>
+              </div>
+              <div class="neo-card bg-neo-blue">
+                <div class="text-xl font-bold">跟一线 AI 使用者交流学习的机会</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 4: Solution -->
+      <section>
+        <div class="grid grid-cols-2 gap-8 h-full items-center">
+          <div class="neo-card-lg bg-neo-red text-white">
+            <h2 class="text-4xl font-black mb-4">我们怎么解决？</h2>
+            <p class="text-2xl font-bold">周周黑客松 = 每周都搞的迷你黑客松</p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <span class="neo-badge bg-neo-yellow text-black">周周都搞</span>
+              <span class="neo-badge bg-neo-green text-black">快速共创</span>
+              <span class="neo-badge bg-neo-blue text-black">真实产品</span>
+            </div>
+          </div>
+          <div class="neo-card-lg bg-neo-white">
+            <h3 class="text-3xl font-bold mb-4">什么是黑客松？</h3>
+            <ul class="text-lg font-bold space-y-2 text-gray-700">
+              <li>短时间内协作</li>
+              <li>开发 + 产品 + 设计</li>
+              <li>几小时到几天</li>
+              <li>跨界组合，分工明确</li>
+              <li>交付真实可用的产品</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 5: Stats -->
+      <section>
+        <h2 class="text-4xl font-bold mb-8">我们做到了什么？</h2>
+        <div class="grid grid-cols-4 gap-6 text-center">
+          <div class="neo-card bg-neo-blue">
+            <div class="text-5xl font-black mb-2">200+</div>
+            <div class="font-bold text-lg">线下活动</div>
+          </div>
+          <div class="neo-card bg-neo-green">
+            <div class="text-5xl font-black mb-2">100+</div>
+            <div class="font-bold text-lg">从想法到产品</div>
+          </div>
+          <div class="neo-card bg-neo-red">
+            <div class="text-5xl font-black mb-2 text-white">10,000+</div>
+            <div class="font-bold text-lg text-white">创造者社区</div>
+          </div>
+          <div class="neo-card bg-neo-yellow">
+            <div class="text-5xl font-black mb-2">100%</div>
+            <div class="font-bold text-lg">志愿者驱动</div>
+          </div>
+        </div>
+        <div class="mt-6 text-lg font-bold bg-white border-2 border-black inline-block px-4 py-2 shadow-neo-sm">
+          成立于 2024 年 6 月
+        </div>
+        <div class="mt-4 flex flex-wrap gap-3 justify-center text-lg font-bold">
+          <span class="neo-badge bg-neo-yellow">5+ 城市</span>
+          <span class="neo-badge bg-neo-blue">30+ 合作伙伴</span>
+          <span class="neo-badge bg-neo-green">50+ 核心组织者</span>
+        </div>
+        <div class="mt-4 text-base font-bold bg-white border-2 border-black inline-block px-4 py-2 shadow-neo-sm">
+          来自苹果、阿里、字节、腾讯等一线团队的开发者、产品经理、创业者
+        </div>
+      </section>
+
+      <!-- Slide 6: Outcomes -->
+      <section>
+        <h2 class="text-4xl font-bold mb-6">零基础普通人一下午做出的成果</h2>
+        <div class="grid grid-cols-2 gap-8">
+          <div class="neo-card-lg bg-neo-white">
+            <div class="text-2xl font-bold mb-4">好玩的作品</div>
+            <ul class="text-lg font-bold space-y-2">
+              <li>手搓桌面机器人</li>
+              <li>AI 短剧 & AI 音乐</li>
+              <li>AI 小程序</li>
+              <li>AI 设计周边 / 3D 模型</li>
+              <li>定制 AI 游戏</li>
+              <li>AI 占卜 & 身心灵</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="neo-card bg-neo-yellow">
+              <div class="text-xl font-bold mb-2">案例</div>
+              <div class="text-lg font-bold">完全由 AI 生成的社区网站 & 小程序</div>
+            </div>
+            <div class="neo-card bg-neo-blue">
+              <div class="text-xl font-bold mb-2">祝福网站</div>
+              <div class="text-lg font-bold">给妈妈做个专属生日祝福</div>
+              <div class="text-sm font-bold mt-3 bg-white border-2 border-black inline-block px-2 py-1">sunzhonglan.life</div>
+            </div>
+            <div class="neo-card bg-neo-green">
+              <div class="text-xl font-bold mb-2">也有赚钱的</div>
+              <div class="text-lg font-bold">出海独立站模板月入 20w+</div>
+              <div class="text-sm font-bold text-gray-700">AI 硬件产品获奇绩创坛投资</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 7: Vision -->
+      <section>
+        <h2 class="text-4xl font-bold mb-8 bg-neo-green inline-block border-2 border-black px-6 py-3 shadow-neo transform -rotate-2">社区愿景</h2>
+        <div class="grid grid-cols-2 gap-8">
+          <div class="neo-card-lg bg-neo-white space-y-3">
+            <div class="text-2xl font-bold">打造创造者随时可以回来的家</div>
+            <div class="text-lg font-bold">一个接纳失败的地方</div>
+            <div class="text-lg font-bold">一个找到伙伴的地方</div>
+            <div class="text-lg font-bold">一个作品被看见的地方</div>
+            <div class="mt-4 flex flex-wrap gap-3">
+              <span class="bg-neo-red text-white border-2 border-black px-3 py-1 font-bold">爱</span>
+              <span class="bg-neo-blue text-black border-2 border-black px-3 py-1 font-bold">自由</span>
+              <span class="bg-neo-green text-black border-2 border-black px-3 py-1 font-bold">创造</span>
+            </div>
+          </div>
+          <div class="neo-card-lg bg-neo-yellow space-y-4">
+            <div class="text-2xl font-bold">普通人 + AI + 周周黑客松</div>
+            <ul class="text-lg font-bold space-y-2">
+              <li>学到以前学不到的知识</li>
+              <li>创造想都不敢想的作品</li>
+              <li>遇见相见恨晚的伙伴</li>
+            </ul>
+            <div class="mt-4 bg-neo-black text-white border-2 border-black px-3 py-2 font-bold inline-block">热爱，所以创造</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 8: Community Benefits -->
+      <section>
+        <h2 class="text-4xl font-bold mb-8">加入社区，你能获得什么</h2>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="neo-card bg-neo-yellow flex flex-col gap-2">
+            <div class="text-3xl">🧰</div>
+            <div class="text-xl font-bold">每周一起学习最酷 AI 工具</div>
+            <div class="text-base font-bold text-gray-700">创造好玩的作品</div>
+          </div>
+          <div class="neo-card bg-neo-blue flex flex-col gap-2">
+            <div class="text-3xl">🤝</div>
+            <div class="text-xl font-bold">认识志同道合的伙伴</div>
+            <div class="text-base font-bold text-gray-700">在一起更快更远</div>
+          </div>
+          <div class="neo-card bg-neo-green flex flex-col gap-2">
+            <div class="text-3xl">🧠</div>
+            <div class="text-xl font-bold">一线 AI 从业者经验分享</div>
+            <div class="text-base font-bold text-gray-700">少走弯路，直接起飞</div>
+          </div>
+          <div class="neo-card bg-neo-red text-white flex flex-col gap-2">
+            <div class="text-3xl">💬</div>
+            <div class="text-xl font-bold">加入专属群聊</div>
+            <div class="text-base font-bold text-white/90">开发者 · 产品经理 · 创业者 · 跨界 AI 爱好者</div>
+          </div>
+          <div class="neo-card bg-neo-white flex flex-col gap-2">
+            <div class="text-3xl">💸</div>
+            <div class="text-xl font-bold">玩着玩着把钱赚了</div>
+            <div class="text-base font-bold text-gray-700">真实商业机会在路上</div>
+          </div>
+          <div class="neo-card bg-neo-purple text-white flex flex-col gap-2">
+            <div class="text-3xl">🚀</div>
+            <div class="text-xl font-bold">参与或发起商业项目组</div>
+            <div class="text-base font-bold text-white/90">把作品推向真实用户</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 9: Community Rules -->
+      <section>
+        <h2 class="text-4xl font-bold mb-8">成为社区成员：满足 211 规则</h2>
+        <p class="text-lg font-bold mb-6 bg-neo-yellow inline-block border-2 border-black px-3 py-1 shadow-neo-sm">熟悉社区流程，认同社区价值观</p>
+        <div class="flex flex-col items-center h-full">
+          <div class="neo-card-lg bg-neo-white max-w-4xl relative">
+            <div class="absolute -top-6 -right-6 bg-neo-red border-4 border-black px-4 py-2 text-white font-bold transform rotate-6 shadow-neo">需全部满足!</div>
+            <div class="text-3xl font-black mb-8 border-b-4 border-black pb-4 text-center">🏆 进阶之路</div>
+            <div class="grid grid-cols-3 gap-8 text-center">
+              <div class="flex flex-col items-center">
+                <div class="text-6xl font-black bg-neo-yellow border-4 border-black w-24 h-24 flex items-center justify-center rounded-full mb-4">2</div>
+                <div class="text-xl font-bold">参加 2 次活动</div>
+                <div class="text-sm text-gray-500 mt-2 font-bold">熟悉社区节奏</div>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="text-6xl font-black bg-neo-blue border-4 border-black w-24 h-24 flex items-center justify-center rounded-full mb-4">1</div>
+                <div class="text-xl font-bold">轻度贡献 1 次</div>
+                <div class="text-sm text-gray-500 mt-2 font-bold">志愿者 / 赞助茶水场地 / 帮一次忙</div>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="text-6xl font-black bg-neo-green border-4 border-black w-24 h-24 flex items-center justify-center rounded-full mb-4">1</div>
+                <div class="text-xl font-bold">获得 1 名成员邀请</div>
+                <div class="text-sm text-gray-500 mt-2 font-bold">主动找到一名成员，在其指引下填写资料</div>
+              </div>
+            </div>
+            <div class="mt-8 bg-neo-bg border-2 border-black p-4 text-center font-bold text-lg">
+              🤝 满足条件 -> 找到成员指引 -> 填写资料 -> 加入成员群
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 10: Ending -->
+      <section class="center" data-background-color="#FFDE59">
+        <div class="flex flex-col items-center justify-center h-full border-8 border-black p-12 bg-neo-yellow">
+          <h2 class="text-5xl font-black mb-8 text-black uppercase tracking-tighter">让创造成为一种生活方式</h2>
+          <p class="text-3xl font-bold border-4 border-black bg-white px-6 py-3 shadow-neo">
+            周周黑客松——创造者随时可以回来的家
+          </p>
+          <div class="mt-6 text-2xl font-bold border-4 border-black bg-neo-red text-white px-6 py-2 shadow-neo">
+            爱 · 自由 · 创造
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      history: true,
+      transition: 'none',
+      backgroundTransition: 'none',
+      controls: true,
+      progress: true,
+      center: true,
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+
+    // Print button logic
+    const printBtn = document.getElementById('print-btn');
+    if (printBtn) {
+      printBtn.addEventListener('click', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set('print-pdf', '');
+        window.location.search = urlParams.toString();
+      });
+    }
+  </script>
+</body>
+</html>
