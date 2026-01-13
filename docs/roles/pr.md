@@ -53,7 +53,7 @@ description: 海报、推文、现场直播
 | --- | --- |
 | 现场素材 | [摄影](./photo) |
 | 作品信息 | [技术导师 Mentor](./tech-support) |
-| 内容终审 | [活动主理人](/manual/organizer-handbook) |
+| 内容终审 | [活动统筹](./organizer) |
 | 现场节奏 | [主持人](./mc) |
 
 ### 常见问题与应急处理
