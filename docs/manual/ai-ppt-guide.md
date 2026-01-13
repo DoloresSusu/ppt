@@ -21,30 +21,36 @@ description: 基于 ai-ppt/index.html 生成周周黑客松活动 PPT
 
 ## 制作流程（推荐）
 
-### 1) 复制模板
+### 1. 复制模板
 建议先保留原始模板，再为本次活动创建一份专属文件：
 ```bash
 cp ai-ppt/index.html ai-ppt/2024-08-17.html
 ```
 
-### 2) 用 AI 填充占位符
+### 2. 用 AI 填充占位符
 - 打开 `ai-ppt/2024-08-17.html`（Cursor/Claude/ChatGPT 均可）。
 - 使用 `ai-ppt/prompt.md` 里的完整提示词，或参考 `ai-ppt/README.md` 的简版提示词。
 - 要求 AI 只替换占位符（如 `[WIFI名称]`、`[卫生间位置指引]`），不要改动 HTML 结构与 Tailwind class。
 
-### 3) 更新图片与二维码
+### 3. 更新图片与二维码
 - 将新图片放到 `ai-ppt/assets/media/`。
 - 在 HTML 中替换对应 `<img src="...">` 路径。
 - 若暂时没有图片，可保留占位符或用 `[TODO: ...]` 备注。
 
-### 4) 本地预览
+### 4. 本地预览
+
+- 方法 1： 本地浏览器打开新创建的 HTML 文件，但修改文件记得刷新网页
 在 `ai-ppt/` 目录启动本地服务并查看效果：
 ```bash
 python -m http.server 8000
 ```
 浏览器打开：`http://localhost:8000/2024-08-17.html`。
 
-### 5) 导出 PDF（可选）
+### 5. 如何部署变成可分享链接
+
+- 方法 2：将 HTML 所在文件夹打包为 zip，上传到 https://drop.01mvp.cn 或者 https://app.netlify.com/drop 可以得到一个临时网址，用于分享或投影。
+
+### 6. 导出 PDF（可选）
 - 点击 PPT 中的“进入打印模式”按钮，或 URL 加 `?print-pdf`。
 - `Ctrl/Cmd + P` → 另存为 PDF → 勾选“背景图形”。
 

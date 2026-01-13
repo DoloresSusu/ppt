@@ -43,7 +43,12 @@ description: 基于本仓库 ai-ppt/index.html 模板生成或更新周周黑客
 - 简版提示词见 `ai-ppt/README.md`。
 - 提供执行手册/活动信息并要求只替换占位符。
 
-### 5. 预览与导出
+### 5. 提示用户如何使用该 PPT
+
+- 方法 1： 本地浏览器打开新创建的 HTML 文件，但修改文件记得刷新网页
+- 方法 2：将 HTML 所在文件夹打包为 zip，上传到 https://drop.01mvp.cn 或者 https://app.netlify.com/drop 可以得到一个临时网址，用于分享或投影。
+
+### 6. 预览与导出
 
 交付前务必预览：
 - 在 `ai-ppt/` 下运行 `python -m http.server 8000`。
