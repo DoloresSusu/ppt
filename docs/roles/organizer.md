@@ -20,7 +20,7 @@ description: 全局规划、资源协调、落地推进
 - [ ] 发布参与须知与预习要求（工具注册/提交格式/自带电脑）。
 - [ ] 确认投票与提交方案（限制、下载、备份路径）。
 - [ ] 对齐物料与设备清单（指引牌/签到表/U 盘/转接头）。
-- [ ] 查看 [AI-PPT 模板样例](https://hackppt.01mvp.com/) 并准备开场流程页。
+- [ ] 使用 AI 制作 PPT：先看 [AI PPT 制作指南](/manual/ai-ppt-guide)，模板见 [活动 PPT 模板](https://hackppt.01mvp.com/)（源码在 [GitHub](https://github.com/01mvp/sop) 的 `ai-ppt/index.html`）。
 
 ### 活动当天（12:00 - 18:00）
 - [ ] 提前 2 小时到场，检查电源/网络/投影/音响。
