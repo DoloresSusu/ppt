@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vibe Coding: Claude Agent Skills - 2pm-6pm</title>
+  <title>Claude Skills: 打造属于你的 AI 全能打工人</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +17,7 @@
       theme: {
         extend: {
           colors: {
-            'neo-bg': '#E0E7FF', 
+            'neo-bg': '#E0E7FF',
             'neo-yellow': '#FFDE59',
             'neo-blue': '#5CE1E6',
             'neo-red': '#FF5757',
@@ -75,10 +76,11 @@
     }
   </style>
 </head>
+
 <body class="bg-neo-bg text-neo-black font-mono">
   <div class="reveal">
     <div class="slides">
-      
+
       <!-- Slide 1: Usage Guide -->
       <section>
         <div class="flex flex-col h-full justify-center items-center">
@@ -87,7 +89,8 @@
             <div class="neo-card bg-white">
               <h3 class="text-2xl font-bold mb-4">⌨️ 快捷键</h3>
               <ul class="space-y-2 text-lg">
-                <li><span class="bg-black text-white px-2">Space</span> / <span class="bg-black text-white px-2">→</span> : 下一页</li>
+                <li><span class="bg-black text-white px-2">Space</span> / <span
+                    class="bg-black text-white px-2">→</span> : 下一页</li>
                 <li><span class="bg-black text-white px-2">←</span> : 上一页</li>
                 <li><span class="bg-black text-white px-2">Esc</span> : 全局预览</li>
                 <li><span class="bg-black text-white px-2">F</span> : 全屏模式</li>
@@ -96,7 +99,8 @@
             <div class="neo-card bg-neo-blue flex flex-col justify-between">
               <div>
                 <h3 class="text-2xl font-bold mb-4">📄 导出 PDF</h3>
-                <p class="text-lg mb-4">点击按钮进入打印模式，然后按 <code class="bg-gray-200 px-2 py-1 border border-black">Ctrl/Cmd + P</code></p>
+                <p class="text-lg mb-4">点击按钮进入打印模式，然后按 <code
+                    class="bg-gray-200 px-2 py-1 border border-black">Ctrl/Cmd + P</code></p>
               </div>
               <button id="print-btn" class="text-xl py-3 px-6 bg-neo-red text-white neo-btn self-start">
                 🖨️ 进入打印模式
@@ -139,23 +143,30 @@
           <div class="flex-1 flex flex-col justify-center items-start">
             <div class="flex items-center gap-4 mb-6">
               <img class="h-12 w-auto" src="assets/logo-white.png" alt="Logo" />
-              <span class="px-4 py-1 border-2 border-white rounded-full bg-neo-purple text-white font-bold">Vibe Coding</span>
+              <span class="px-4 py-1 border-2 border-white rounded-full bg-neo-purple text-white font-bold">Vibe
+                Coding</span>
             </div>
-            <h2 class="text-5xl font-bold mb-6 leading-tight text-neo-yellow">让 Claude 成为<br>你的首席工程师</h2>
+            <h2 class="text-5xl font-bold mb-6 leading-tight text-neo-yellow">Claude Skills: 打造属于你的<br>AI 全能打工人</h2>
             <p class="text-xl text-gray-300 mb-8 border-l-4 border-neo-blue pl-6">
-              Claude Code Agent Skills 深度共学<br>
-              极简 · 即兴 · 高频 · 可落地
+              AI 少废话 多干活<br>
+              全网疯狂刷屏的 Skills | 现场一小时教会
             </p>
             <div class="flex gap-4">
-              <span class="bg-neo-blue text-black border-2 border-white px-4 py-2 font-bold shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">AI 编程</span>
-              <span class="bg-neo-red text-black border-2 border-white px-4 py-2 font-bold shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">Agent Skills</span>
-              <span class="bg-neo-green text-black border-2 border-white px-4 py-2 font-bold shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">实战共学</span>
+              <span
+                class="bg-neo-blue text-black border-2 border-white px-4 py-2 font-bold shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">AI
+                编程</span>
+              <span
+                class="bg-neo-red text-black border-2 border-white px-4 py-2 font-bold shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">Agent
+                Skills</span>
+              <span
+                class="bg-neo-green text-black border-2 border-white px-4 py-2 font-bold shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">实战共学</span>
             </div>
           </div>
           <div class="w-1/3 h-full flex items-center justify-center">
-             <div class="w-64 h-64 bg-neo-purple border-4 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,1)] flex items-center justify-center transform rotate-6">
-                <span class="text-7xl">🤖</span>
-             </div>
+            <div
+              class="w-64 h-64 bg-neo-purple border-4 border-white shadow-[10px_10px_0px_0px_rgba(255,255,255,1)] flex items-center justify-center transform rotate-6">
+              <span class="text-7xl">🤖</span>
+            </div>
           </div>
         </div>
       </section>
@@ -163,7 +174,8 @@
       <!-- Slide 3: Entry Info -->
       <section class="relative">
         <div class="flex flex-col items-center">
-          <h2 class="text-5xl font-bold mb-10 bg-neo-black !text-white inline-block px-4 py-2 transform -skew-x-12">入场 & 准备</h2>
+          <h2 class="text-5xl font-bold mb-10 bg-neo-black !text-white inline-block px-4 py-2 transform -skew-x-12">入场 &
+            准备</h2>
           <div class="grid grid-cols-2 gap-8 w-full max-w-6xl">
             <div class="neo-card-lg bg-neo-white">
               <div class="text-xl text-gray-500 mb-2 font-bold">Checklist</div>
@@ -173,15 +185,16 @@
                 <li>📶 网络：现场 Wi-Fi: 前海公共 WIFI，手机验证码登录即可 </li>
                 <li>💬 交流：扫码进活动群 (右侧)</li>
                 <li class="bg-neo-red text-white p-2 border-2 border-black">
-                    ⚠️ 注意：<br>
-                    如网络卡顿，推荐使用个人热点
+                  ⚠️ 注意：<br>
+                  如网络卡顿，推荐使用个人热点
                 </li>
               </ul>
             </div>
             <div class="grid grid-cols-2 gap-4">
               <div class="neo-card bg-neo-yellow text-center col-span-2">
                 <div class="text-lg font-bold mb-2">活动群二维码</div>
-                <img class="h-48 w-48 mx-auto border-2 border-black bg-white object-contain" src="assets/ai_coding_shenzhen_group_qr.jpg" alt="活动群二维码" />
+                <img class="h-48 w-48 mx-auto border-2 border-black bg-white object-contain"
+                  src="assets/ai_coding_shenzhen_group_qr.jpg" alt="活动群二维码" />
               </div>
             </div>
           </div>
@@ -193,18 +206,18 @@
         <div class="flex flex-col h-full justify-center items-center">
           <h2 class="neo-title-tag bg-neo-blue">核心目标</h2>
           <div class="text-3xl font-black mb-10 max-w-4xl text-center leading-relaxed">
-            “别只让 AI 陪聊，给它装上帮你干活的技能包”
+            “AI 少废话 多干活”
           </div>
           <div class="grid grid-cols-2 gap-6 w-full max-w-5xl">
             <div class="neo-card bg-white text-center">
               <div class="text-5xl mb-4">🎯</div>
-              <div class="text-2xl font-bold mb-3">1 小时挑战</div>
-              <p class="text-lg font-bold">独立或组队，完成一个可用的 Skill<br>解决工作/生活痛点</p>
+              <div class="text-2xl font-bold mb-3">15分钟学会+1小时手搓</div>
+              <p class="text-lg font-bold">赋能千行百业 (不只是程序员)<br>给你的 AI 装上专业技能包</p>
             </div>
             <div class="neo-card bg-neo-green text-center">
               <div class="text-5xl mb-4">🎁</div>
-              <div class="text-2xl font-bold mb-3">成果展示</div>
-              <p class="text-lg font-bold">自动抓取资讯、生成 PPT、发送小红书...<br>这才是 Agent 该干的事！</p>
+              <div class="text-2xl font-bold mb-3">全网刷屏</div>
+              <p class="text-lg font-bold">财务/运营/打工人/创始人 IP...<br>这才是 Agent 该干的事！</p>
             </div>
           </div>
         </div>
@@ -213,39 +226,47 @@
       <!-- Slide 5: Agenda -->
       <section>
         <div class="flex flex-col items-center">
-          <h2 class="text-4xl font-bold mb-8 border-b-4 border-black inline-block pb-2">⏰ 活动流程 (14:00 - 18:00)</h2>
+          <h2 class="text-4xl font-bold mb-8 border-b-4 border-black inline-block pb-2">⏰ 活动流程 (14:00 - 17:30)</h2>
           <div class="relative pl-8 border-l-4 border-black ml-4 space-y-4 text-left">
             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">14:00-14:30</span>
-              <span class="text-xl font-bold">📋 签到、领取技能贴纸、预热</span>
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">14:00-14:30</span>
+              <span class="text-xl font-bold">📋 签到、学习共学文档、自由交流</span>
             </div>
             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">14:30-14:45</span>
-              <span class="text-xl font-bold">🎙️ 开场 & 极简教学 (Skill 核心演示)</span>
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">14:30-14:45</span>
+              <span class="text-xl font-bold">🎙️ 开场 & 社区介绍 + 极简教学 (Skill 核心演示)</span>
             </div>
             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">14:45-15:00</span>
-              <span class="text-xl font-bold">🤝 光速组队 & 确定主题</span>
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">14:45-15:00</span>
+              <span class="text-xl font-bold">🤝 光速组队 & 确定队名+主题</span>
             </div>
             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">15:00-15:15</span>
-              <span class="text-xl font-bold">📢 小组展示 (队名、主题)</span>
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">15:00-15:15</span>
+              <span class="text-xl font-bold">📢 小组亮相 (队名、主题)</span>
             </div>
             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">15:00-16:00</span>
-              <span class="text-xl font-bold">🔥 Do It! (沉浸式创作冲刺)</span>
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">15:00-16:00</span>
+              <span class="text-xl font-bold">🔥 1 小时沉浸式创作冲刺</span>
             </div>
-             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">16:00-16:10</span>
+            <div class="flex items-center gap-6 relative group">
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">16:00-16:10</span>
               <span class="text-xl font-bold">☕️ 中场休息 & 摆摊准备</span>
             </div>
-             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">16:10-17:00</span>
-              <span class="text-xl font-bold">🧺 摆摊路演（两轮，每轮 15 分钟）</span>
+            <div class="flex items-center gap-6 relative group">
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">16:10-17:00</span>
+              <span class="text-xl font-bold">🧺 摆摊路演、投票</span>
             </div>
-             <div class="flex items-center gap-6 relative group">
-              <span class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">17:00-17:30</span>
-              <span class="text-xl font-bold">🏆 颁奖 & 大合影</span>
+            <div class="flex items-center gap-6 relative group">
+              <span
+                class="text-xl font-bold font-mono bg-neo-bg px-2 border-2 border-black min-w-[150px] text-center">17:00-17:30</span>
+              <span class="text-xl font-bold">🏆 颁奖 & 感谢志愿者 & 大合影</span>
             </div>
           </div>
         </div>
@@ -312,36 +333,36 @@
       <section>
         <h2 class="text-4xl font-bold mb-8">📘 共学内容大纲</h2>
         <div class="grid grid-cols-3 gap-6 w-full max-w-6xl">
-             <div class="neo-card bg-white h-full">
-                <div class="text-6xl mb-4">🛠️</div>
-                <h3 class="text-2xl font-bold mb-4">基础准备</h3>
-                <ul class="text-left space-y-2 font-bold text-gray-700 text-lg">
-                    <li>- Claude Code CLI 安装</li>
-                    <li>- 授权流程演示</li>
-                    <li>- Antigravity 配置</li>
-                    <li>- MCP 工具集成</li>
-                </ul>
-             </div>
-             <div class="neo-card bg-neo-blue h-full">
-                <div class="text-6xl mb-4">💡</div>
-                <h3 class="text-2xl font-bold mb-4">核心技巧</h3>
-                <ul class="text-left space-y-2 font-bold text-gray-700 text-lg">
-                    <li>- 编写自定义 Skill</li>
-                    <li>- 让 Agent 调用 API</li>
-                    <li>- 自动化工作流设计</li>
-                    <li>- 实战案例解析</li>
-                </ul>
-             </div>
-             <div class="neo-card bg-neo-yellow h-full">
-                <div class="text-6xl mb-4">⚠️</div>
-                <h3 class="text-2xl font-bold mb-4">避坑指南</h3>
-                <ul class="text-left space-y-2 font-bold text-gray-700 text-lg">
-                    <li>- Token 消耗预警</li>
-                    <li>- 权限范围控制</li>
-                    <li>- Agent 死循环处理</li>
-                    <li>- 调试技巧</li>
-                </ul>
-             </div>
+          <div class="neo-card bg-white h-full">
+            <div class="text-6xl mb-4">🛠️</div>
+            <h3 class="text-2xl font-bold mb-4">基础准备</h3>
+            <ul class="text-left space-y-2 font-bold text-gray-700 text-lg">
+              <li>- Claude Code CLI 安装</li>
+              <li>- 授权流程演示</li>
+              <li>- Antigravity 配置</li>
+              <li>- MCP 工具集成</li>
+            </ul>
+          </div>
+          <div class="neo-card bg-neo-blue h-full">
+            <div class="text-6xl mb-4">💡</div>
+            <h3 class="text-2xl font-bold mb-4">核心技巧</h3>
+            <ul class="text-left space-y-2 font-bold text-gray-700 text-lg">
+              <li>- 编写自定义 Skill</li>
+              <li>- 让 Agent 调用 API</li>
+              <li>- 自动化工作流设计</li>
+              <li>- 实战案例解析</li>
+            </ul>
+          </div>
+          <div class="neo-card bg-neo-yellow h-full">
+            <div class="text-6xl mb-4">⚠️</div>
+            <h3 class="text-2xl font-bold mb-4">避坑指南</h3>
+            <ul class="text-left space-y-2 font-bold text-gray-700 text-lg">
+              <li>- Token 消耗预警</li>
+              <li>- 权限范围控制</li>
+              <li>- Agent 死循环处理</li>
+              <li>- 调试技巧</li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -350,25 +371,26 @@
         <h2 class="text-4xl font-bold mb-10">活动守则 (Code of Conduct)</h2>
         <div class="grid grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div class="neo-card bg-neo-white flex gap-6 items-center hover:-translate-y-2 transition-transform">
-             <div class="neo-icon-box bg-neo-red">🎉</div>
-             <div>
-               <div class="text-3xl font-bold mb-2">Vibe Coding</div>
-               <p class="text-lg">一下午，一群人，做点好玩的东西</p>
-             </div>
+            <div class="neo-icon-box bg-neo-red">🎉</div>
+            <div>
+              <div class="text-3xl font-bold mb-2">Vibe Coding</div>
+              <p class="text-lg">一下午，一群人，做点好玩的东西</p>
+            </div>
           </div>
           <div class="neo-card bg-neo-white flex gap-6 items-center hover:-translate-y-2 transition-transform">
-             <div class="neo-icon-box bg-neo-blue">🗑️</div>
-             <div>
-               <div class="text-3xl font-bold mb-2">先做个垃圾出来</div>
-               <p class="text-lg">先完成再完美，不要太纠结</p>
-             </div>
+            <div class="neo-icon-box bg-neo-blue">🗑️</div>
+            <div>
+              <div class="text-3xl font-bold mb-2">先做个垃圾出来</div>
+              <p class="text-lg">先完成再完美，不要太纠结</p>
+            </div>
           </div>
-          <div class="neo-card bg-neo-white flex gap-6 items-center hover:-translate-y-2 transition-transform col-span-2">
-             <div class="neo-icon-box bg-neo-yellow">👏</div>
-             <div>
-               <div class="text-3xl font-bold mb-2">鼓励与夸夸</div>
-               <p class="text-lg">不要吝啬你的掌声！给身边伙伴情绪价值，我们在爱与夸夸中共同成长。</p>
-             </div>
+          <div
+            class="neo-card bg-neo-white flex gap-6 items-center hover:-translate-y-2 transition-transform col-span-2">
+            <div class="neo-icon-box bg-neo-yellow">👏</div>
+            <div>
+              <div class="text-3xl font-bold mb-2">鼓励与夸夸</div>
+              <p class="text-lg">不要吝啬你的掌声！给身边伙伴情绪价值，我们在爱与夸夸中共同成长。</p>
+            </div>
           </div>
         </div>
       </section>
@@ -377,38 +399,34 @@
       <section>
         <h2 class="text-4xl font-bold mb-8">光速组队</h2>
         <div class="grid grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div class="neo-card bg-neo-white">
-                <h3 class="text-2xl font-bold mb-4">👫 组队方式</h3>
-                 <ul class="space-y-4 text-xl font-bold text-left">
-                    <li>1. 我们的目标是一致的：搞定那个 Skill！</li>
-                    <li>2. 寻找互补队友：前端 + 后端 + 脑洞</li>
-                    <li>3. 按座位就近组队，或者举手示意</li>
-                    <li>4. 队名要响亮，口号要骚</li>
-                </ul>
+          <div class="neo-card bg-neo-white">
+            <h3 class="text-2xl font-bold mb-4">👫 组队方式</h3>
+            <ul class="space-y-4 text-xl font-bold text-left">
+              <li>1. 我们的目标是一致的：搞定那个 Skill！</li>
+              <li>2. 寻找互补队友：创意 + 技术 + 宣传</li>
+              <li>3. 按座位就近组队，或者举手示意</li>
+              <li>4. 队名要响亮，口号要骚</li>
+            </ul>
+          </div>
+          <div class="neo-card bg-neo-purple text-white">
+            <h3 class="text-2xl font-bold mb-4">📝 登记信息</h3>
+            <div class="text-left text-xl font-bold space-y-4">
+              <p>确定好队友后，请写桌牌：</p>
+              <ul class="list-disc list-inside bg-black/20 p-4 rounded border-2 border-white">
+                <li>队名 (Team Name)</li>
+                <li>创作名称/主题 (Topic)</li>
+                <li>队伍成员 (Members)</li>
+                <li>口号（Slogan）</li>
+              </ul>
             </div>
-             <div class="neo-card bg-neo-purple text-white">
-                <h3 class="text-2xl font-bold mb-4">📝 登记信息</h3>
-                 <div class="text-left text-xl font-bold space-y-4">
-                    <p>确定好队友后，请写桌牌：</p>
-                    <ul class="list-disc list-inside bg-black/20 p-4 rounded border-2 border-white">
-                        <li>队名 (Team Name)</li>
-                        <li>创作主题 (Topic)</li>
-                        <li>作品名称 (Skill Name)</li>
-                        <li>Slogan</li>
-                    </ul>
-                 </div>
-            </div>
+          </div>
         </div>
       </section>
 
       <!-- Slide: Teaming Countdown (Restored) -->
       <section style="padding: 0;">
-        <iframe
-          src="embeds/countdown-brutalist.html?title=组队倒计时&minutes=10"
-          class="w-full h-full"
-          style="border: 0;"
-          loading="lazy"
-          allow="fullscreen"></iframe>
+        <iframe src="embeds/countdown-brutalist.html?title=组队倒计时&minutes=15" class="w-full h-full" style="border: 0;"
+          loading="lazy" allow="fullscreen"></iframe>
       </section>
 
       <!-- Slide: Team Appearance (Restored) -->
@@ -427,40 +445,76 @@
           </div>
         </div>
       </section>
-      
+
       <!-- Slide 8: Coding Countdown -->
       <section style="padding: 0;" class="relative">
-         <iframe
-           src="embeds/countdown-brutalist.html?title=Do It 创作冲刺&minutes=60&tip=遇到报错找助教，不要卡太久！"
-           class="w-full h-full"
-           style="border: 0;"
-           loading="lazy"
-           allow="fullscreen"></iframe>
+        <iframe src="embeds/countdown-brutalist.html?title=Do It 创作冲刺&minutes=60&tip=遇到报错找助教，不要卡太久！"
+          class="w-full h-full" style="border: 0;" loading="lazy" allow="fullscreen"></iframe>
+      </section>
+
+      <!-- Slide: Submission Info -->
+      <section>
+        <div class="flex flex-col items-center">
+          <h2 class="neo-title-tag bg-neo-purple !text-white transform -rotate-1">📤 作品提交</h2>
+          <div class="grid grid-cols-2 gap-8 w-full max-w-6xl">
+            <div class="neo-card-lg bg-white text-left">
+              <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-2 flex items-center gap-2">
+                  <span class="bg-neo-red text-white px-2">DEADLINE</span>
+                </h3>
+                <p class="text-6xl font-black text-neo-red">16:15</p>
+                <p class="text-xl font-bold text-gray-500 mt-2">⚠️ 请务必准时提交，逾期将无法进入投票环节</p>
+              </div>
+
+              <h3 class="text-2xl font-bold mb-4 border-b-4 border-black pb-2">📂 提交清单</h3>
+              <ul class="space-y-3 text-xl font-bold">
+                <li class="flex items-center gap-2">📦 作品文件包 (Source/Demo)</li>
+                <li class="flex items-center gap-2">🏷️ 作品名称 + 组名</li>
+                <li class="flex items-center gap-2">📝 创作说明 (50 字内简介)</li>
+              </ul>
+            </div>
+
+            <div class="neo-card bg-neo-blue flex flex-col justify-center items-center text-center">
+              <div class="bg-white p-4 border-4 border-black mb-6 shadow-neo">
+                <img class="h-64 w-64 object-contain" src="assets/media/submission.png" alt="提交二维码" />
+              </div>
+              <div class="bg-black text-white px-4 py-2 font-bold mb-4">入口：周周黑客松官网</div>
+              <p class="text-lg font-mono break-all opacity-80">hackathonweekly.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide: Break & Preparation -->
+      <section style="padding: 0;" class="relative">
+        <iframe src="embeds/countdown-brutalist.html?title=中场休息 & 摆摊准备&minutes=15&tip=请各小组将电脑摆放到展示位，准备好投票二维码！"
+          class="w-full h-full" style="border: 0;" loading="lazy" allow="fullscreen"></iframe>
       </section>
 
       <!-- Slide 9: Booth Demo Rules -->
       <section>
         <h2 class="text-4xl font-bold mb-8">摆摊路演规则</h2>
         <div class="neo-card-lg bg-white max-w-4xl mx-auto text-left">
-             <ul class="space-y-6 text-2xl font-bold">
-                 <li class="flex items-start gap-4">
-                     <span class="bg-neo-red text-white px-2 border-2 border-black">摆摊两轮</span>
-                     <span>第 1 轮前一半队伍；第 2 轮后一半队伍。每轮 15 分钟。</span>
-                 </li>
-                 <li class="flex items-start gap-4">
-                     <span class="bg-neo-blue text-black px-2 border-2 border-black">手机展示</span>
-                     <span>用手机展示作品与投票二维码，引导大家扫码点赞。</span>
-                 </li>
-                 <li class="flex items-start gap-4">
-                     <span class="bg-neo-yellow text-black px-2 border-2 border-black">桌牌标注</span>
-                     <span>桌牌写上作品名称，方便大家识别。</span>
-                 </li>
-             </ul>
-              <div class="mt-8 text-center">
-                <a href="https://hackathonweekly.com/zh/events/cmkdo7t43002zv801ltp99mm5" target="_blank" class="text-xl bg-neo-black text-white border-2 border-white inline-block px-6 py-3 hover:bg-gray-800 transition-colors">
-                    👉 投票入口：hackathonweekly.com
-                </a>
-            </div>
+          <ul class="space-y-6 text-2xl font-bold">
+            <li class="flex items-start gap-4">
+              <span class="bg-neo-red text-white px-2 border-2 border-black">摆摊两轮</span>
+              <span>第 1 轮前一半队伍；第 2 轮后一半队伍。每轮 15 分钟。</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="bg-neo-blue text-black px-2 border-2 border-black">摆摊展示</span>
+              <span>每一个小组聚集成一个摊位，用电脑展示【作品】与【投票二维码】，观众自由流动、体验交流，扫码点赞。</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="bg-neo-yellow text-black px-2 border-2 border-black">桌牌标注</span>
+              <span>桌牌写上作品名称，方便大家识别。</span>
+            </li>
+          </ul>
+          <div class="mt-8 text-center">
+            <a href="https://hackathonweekly.com/zh/events/cmkdo7t43002zv801ltp99mm5" target="_blank"
+              class="text-2xl bg-neo-red text-white neo-btn inline-block px-8 py-4">
+              👉 投票入口：hackathonweekly.com
+            </a>
+          </div>
         </div>
       </section>
 
@@ -480,7 +534,7 @@
             </div>
             <div class="neo-card bg-neo-blue text-center">
               <div class="text-5xl mb-4">🧰</div>
-              <div class="text-2xl font-bold mb-3">每周共学</div>
+              <div class="text-2xl font-bold mb-3">每周共学：下周预告🎬</div>
               <p class="text-lg font-bold">一起学习最新 AI 工具<br>创造好玩的作品</p>
             </div>
             <div class="neo-card bg-neo-yellow text-center">
@@ -509,113 +563,117 @@
             <div class="neo-card bg-neo-blue text-center">
               <div class="text-xl font-bold mb-2">社区参与路径</div>
               <div class="text-lg font-bold">参与者 → 志愿者 → 社区成员</div>
-              <div class="text-lg font-bold"><br/> </div>
+              <div class="text-lg font-bold"><br /> </div>
               <div class="text-lg font-bold"> → 活动主理人 → 核心共创者</div>
             </div>
           </div>
         </div>
       </section>
 
-       <!-- Slide 10: Awards -->
+      <!-- Slide 10: Awards -->
       <section>
-         <h2 class="text-4xl font-bold mb-8">奖项设置</h2>
-         <div class="grid grid-cols-3 gap-6 max-w-5xl mx-auto">
-             <div class="neo-card bg-neo-yellow flex flex-col items-center justify-center h-64">
-                 <div class="text-6xl mb-4">🥇</div>
-                 <div class="text-3xl font-black">第一名</div>
-                 <div class="mt-2 font-bold">社区证书</div>
-             </div>
-             <div class="neo-card bg-white flex flex-col items-center justify-center h-64">
-                 <div class="text-6xl mb-4">🥈</div>
-                 <div class="text-3xl font-black">第二名</div>
-                 <div class="mt-2 font-bold">社区证书</div>
-             </div>
-             <div class="neo-card bg-neo-blue flex flex-col items-center justify-center h-64">
-                 <div class="text-6xl mb-4">🥉</div>
-                 <div class="text-3xl font-black">第三名</div>
-                 <div class="mt-2 font-bold">社区证书</div>
-             </div>
-         </div>
+        <h2 class="text-4xl font-bold mb-8">奖项设置</h2>
+        <div class="grid grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div class="neo-card bg-neo-yellow flex flex-col items-center justify-center h-64">
+            <div class="text-6xl mb-4">🥇</div>
+            <div class="text-3xl font-black">第一名</div>
+            <div class="mt-2 font-bold">社区证书</div>
+          </div>
+          <div class="neo-card bg-white flex flex-col items-center justify-center h-64">
+            <div class="text-6xl mb-4">🥈</div>
+            <div class="text-3xl font-black">第二名</div>
+            <div class="mt-2 font-bold">社区证书</div>
+          </div>
+          <div class="neo-card bg-neo-blue flex flex-col items-center justify-center h-64">
+            <div class="text-6xl mb-4">🥉</div>
+            <div class="text-3xl font-black">第三名</div>
+            <div class="mt-2 font-bold">社区证书</div>
+          </div>
+        </div>
+        <div class="mt-6 max-w-5xl mx-auto">
+          <div class="neo-card bg-neo-purple text-white flex flex-col items-center justify-center h-64">
+            <div class="text-6xl mb-4">✨</div>
+            <div class="text-6xl font-black">特别奖项</div>
+          </div>
+        </div>
       </section>
 
       <!-- Slide: Group Sharing -->
       <section>
-        <h2 class="text-4xl font-bold mb-8">小组分享 (每组1分钟)</h2>
+        <h2 class="text-4xl font-bold mb-8">感受分享 (每组1分钟)</h2>
         <div class="neo-card-lg bg-neo-white text-center">
-            <h3 class="text-2xl font-bold mb-6">每组派一名代表上台</h3>
-            <ul class="text-xl font-bold text-left list-disc list-inside space-y-4 max-w-xl mx-auto">
-               <li>今天最喜欢的作品是什么？</li>
-               <li>今天的感受如何？</li>
-               <li>有什么新的启发？</li>
-            </ul>
+          <h3 class="text-2xl font-bold mb-6">每组派一名代表在座位上发言</h3>
+          <ul class="text-xl font-bold text-left list-disc list-inside space-y-4 max-w-xl mx-auto">
+            <li>今天最喜欢的作品是什么？</li>
+            <li>今天的感受如何？</li>
+            <li>有什么新的启发？</li>
+          </ul>
         </div>
       </section>
 
-      <!-- Slide: Activity Feedback -->
-      <section>
-        <h2 class="text-4xl font-bold mb-8">活动反馈</h2>
-        <div class="flex flex-col items-center gap-6">
-          <div class="bg-neo-yellow border-2 border-black p-4 text-xl font-bold mb-4">
-             感谢您参加周周黑客松社区的活动！<br> 您的反馈对我们非常重要，这可以帮助我们未来举办更好的活动。
-          </div>
-          <img class="h-64 w-64 border-2 border-black bg-white" src="assets/media/feedback.jpeg" alt="反馈二维码" />
-        </div>
-      </section>
 
       <!-- Slide 11: Crew -->
       <section>
         <h2 class="text-4xl font-bold mb-8">The Crew</h2>
         <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
-           <div class="neo-card bg-white h-full">
-               <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">主理人 & Host</h3>
-               <p class="text-lg font-bold">@Dolores多乐 (统筹)</p>
-               <p class="text-lg font-bold">@董小保 bob (主持)</p>
-           </div>
-           <div class="neo-card bg-neo-white h-full">
-               <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">技术讲师</h3>
-               <p class="text-lg font-bold">@铭龙 (Hardcore Coding)</p>
-           </div>
-           <div class="neo-card bg-neo-white h-full">
-               <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">技术助教</h3>
-               <p class="text-lg font-bold">Tech Support Team (现场巡逻)</p>
-           </div>
-            <div class="neo-card bg-neo-white h-full">
-               <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">记录与支持</h3>
-               <p class="text-lg font-bold">@二号玩家 (摄影)</p>
-               <p class="text-lg font-bold">签到志愿者 (Logistics)</p>
-           </div>
+          <div class="neo-card bg-white h-full">
+            <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">主理人 & 主持人</h3>
+
+          </div>
+          <div class="neo-card bg-neo-white h-full">
+            <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">技术讲师</h3>
+          </div>
+          <div class="neo-card bg-neo-white h-full">
+            <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">技术助教</h3>
+          </div>
+          <div class="neo-card bg-neo-white h-full">
+            <h3 class="text-xl font-bold border-b-2 border-black pb-2 mb-2">记录与支持</h3>
+            <p class="text-lg font-bold">摄影、签到、物料、场地...</p>
+          </div>
         </div>
       </section>
 
       <!-- Slide 12: Next Event -->
       <section class="center relative" data-background-color="#FFDE59">
         <div class="flex flex-col items-center justify-center h-full border-8 border-black p-12 bg-neo-yellow">
-           <h2 class="text-6xl font-black mb-6 text-black uppercase tracking-tighter">📸 大合影时间</h2>
-           <p class="text-3xl font-bold border-4 border-black bg-white px-6 py-3 shadow-neo mb-6">
-             Vibe Coding，周周黑客松
-           </p>
-           <div class="mt-8 text-xl font-bold">
-               下期预告：[关注群公告]
-           </div>
+          <h2 class="text-6xl font-black mb-6 text-black uppercase tracking-tighter">📸 大合影时间</h2>
+          <p class="text-3xl font-bold border-4 border-black bg-white px-6 py-3 shadow-neo mb-6">
+            Vibe Coding，周周黑客松
+          </p>
+          <div class="mt-8 text-xl font-bold">
+            下期预告：[关注群公告]
+          </div>
         </div>
       </section>
 
       <!-- Slide: Pack Up -->
-       <section class="center relative">
+      <section class="center relative">
         <div class="flex flex-col items-center justify-center h-full">
-           <div class="neo-card-lg bg-white text-center">
-               <h2 class="text-4xl font-bold mb-8">👋 感谢参与</h2>
-               <p class="text-2xl font-bold mb-4">请大家帮忙一起收拾现场</p>
-               <p class="text-xl text-gray-500">带走随身物品，不要遗漏哦</p>
-               <div class="mt-8 text-3xl font-bold text-neo-blue">
-                   Vibe Coding，周周见！
-               </div>
-           </div>
+          <div class="neo-card-lg bg-white text-center">
+            <h2 class="text-4xl font-bold mb-8">👋 感谢参与</h2>
+            <p class="text-2xl font-bold mb-4">请大家帮忙一起收拾现场</p>
+            <p class="text-xl text-gray-500">带走随身物品，不要遗漏哦</p>
+            <div class="mt-8 text-3xl font-bold text-neo-blue">
+              Vibe Coding，周周见！
+            </div>
+          </div>
         </div>
       </section>
 
     </div>
   </div>
+
+  <style>
+    /* Subtle Slide Number in Bottom Left */
+    .reveal .slide-number {
+      left: 24px !important;
+      right: auto !important;
+      bottom: 24px !important;
+      background: transparent !important;
+      color: rgba(0, 0, 0, 0.3) !important;
+      font-size: 14px !important;
+    }
+  </style>
 
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
@@ -625,7 +683,8 @@
     Reveal.initialize({
       hash: true,
       history: true,
-      transition: 'none', 
+      slideNumber: 'c/t', // 显示 "当前页/总页数"
+      transition: 'none',
       backgroundTransition: 'none',
       controls: true,
       progress: true,
@@ -643,4 +702,5 @@
     }
   </script>
 </body>
+
 </html>
